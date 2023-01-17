@@ -213,9 +213,9 @@ Yes, you can make a multiplayer game using Node.js. Node.js is a JavaScript runt
 
 To create a multiplayer game using Node.js, you would typically use a combination of technologies such as the following:
 
-    * Node.js for the server-side logic and handling of game state and communication between players.
-    * WebSockets for real-time communication between the server and clients.
-    * A game engine or framework such as Phaser, Pixi.js, or Three.js for creating the client-side game graphics and logic.
+*   Node.js for the server-side logic and handling of game state and communication between players.
+*   WebSockets for real-time communication between the server and clients.
+*   A game engine or framework such as Phaser, Pixi.js, or Three.js for creating the client-side game graphics and logic.
 
 Here's an overview of how the process of creating a multiplayer game using Node.js would typically work:
 
