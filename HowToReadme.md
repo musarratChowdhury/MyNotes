@@ -15,9 +15,9 @@ Markdown is a markup language that is used to format plain text documents. It al
     ### Heading 3
 2.  Lists can be created using "-" or "*" at the beginning of a line, followed by a space.
     Example:
-    >    \- item 1
-    >    \- item 2
-    >    \- item 3
+        - \- item 1
+        - \- item 2
+        - \- item 3
 3.  Bold text is created by surrounding text with two asterisks.
     Example: \**bold text\**
 4.  Italic text is created by surrounding text with one asterisk.
@@ -25,7 +25,7 @@ Markdown is a markup language that is used to format plain text documents. It al
 5.  Links are created by surrounding the link text with square brackets, followed by the URL in parentheses.
     Example: \[Google](https://www.google.com)
 6.  Images are added by using an exclamation mark followed by the alternate text in square brackets and the image URL in parenthesis.
-    Example: \![image](https://example.com/image.jpg)
+    Example: \!\[image](https://example.com/image.jpg)
 
->These are just a few examples of the most commonly used Markdown syntax, but there are many more options available.
+These are just a few examples of the most commonly used Markdown syntax, but there are many more options available.
 *You can find more details about the markdown syntax in this website https://daringfireball.net/projects/markdown/syntax*
