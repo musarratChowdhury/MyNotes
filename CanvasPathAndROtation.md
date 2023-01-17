@@ -219,11 +219,11 @@ To create a multiplayer game using Node.js, you would typically use a combinatio
 
 Here's an overview of how the process of creating a multiplayer game using Node.js would typically work:
 
-    * Set up a Node.js server and establish WebSocket connections with clients.
-    * Use WebSockets to send game state updates and handle input from players in real-time.
-    * Use a game engine or framework to create the client-side game graphics and logic.
-    * Use Node.js to handle the game state and logic, such as player movements, collision detection, and game logic.
-    * Use Node.js to broadcast game state updates to all connected clients.
+*   Set up a Node.js server and establish WebSocket connections with clients.
+*   Use WebSockets to send game state updates and handle input from players in real-time.
+*   Use a game engine or framework to create the client-side game graphics and logic.
+*   Use Node.js to handle the game state and logic, such as player movements, collision detection, and game logic.
+*   Use Node.js to broadcast game state updates to all connected clients.
 
 It's worth noting that building a multiplayer game is a complex task, and it requires a good understanding of web development, game development, and networking. If you're new to game development, it might be helpful to start with some simpler projects to get a feel for the basics before diving into a multiplayer game.
 
