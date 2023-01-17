@@ -12,12 +12,12 @@ Markdown is a markup language that is used to format plain text documents. It al
 1.  Headings are created by adding one or more "#" symbols at the beginning of a line, followed by a space. The number of "#" symbols indicates the  level of >the heading.
     Example: # Heading 1
     ## Heading 2
-    i### Heading 3
-2.  Lists can be created using "-" or "*" at the beginning of a line, followed >by a space.
+    ### Heading 3
+2.  Lists can be created using "-" or "*" at the beginning of a line, followed by a space.
     Example:
-        - item 1
-        - item 2
-        - item 3
+    >    - item 1
+    >    - item 2
+    >    - item 3
 3.  Bold text is created by surrounding text with two asterisks.
     Example: **bold text**
 4.  Italic text is created by surrounding text with one asterisk.
