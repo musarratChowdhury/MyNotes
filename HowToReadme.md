@@ -12,20 +12,20 @@ Markdown is a markup language that is used to format plain text documents. It al
 >Headings are created by adding one or more "#" symbols at the beginning of a >line, followed by a space. The number of "#" symbols indicates the level of >the heading.
 >    Example: # Heading 1
 >    ## Heading 2
-    ### Heading 3
-Lists can be created using "-" or "*" at the beginning of a line, followed by a space.
+>   ### Heading 3
+>Lists can be created using "-" or "*" at the beginning of a line, followed >by a space.
     Example:
         - item 1
         - item 2
         - item 3
-Bold text is created by surrounding text with two asterisks.
+>Bold text is created by surrounding text with two asterisks.
     Example: **bold text**
-Italic text is created by surrounding text with one asterisk.
+>Italic text is created by surrounding text with one asterisk.
     Example: *italic text*
-Links are created by surrounding the link text with square brackets, followed by the URL in parentheses.
+>Links are created by surrounding the link text with square brackets, followed by the URL in parentheses.
     Example: [Google](https://www.google.com)
-Images are added by using an exclamation mark followed by the alternate text in square brackets and the image URL in parenthesis.
+>Images are added by using an exclamation mark followed by the alternate text in square brackets and the image URL in parenthesis.
     Example: ![image](https://example.com/image.jpg)
 
-These are just a few examples of the most commonly used Markdown syntax, but there are many more options available.
+>These are just a few examples of the most commonly used Markdown syntax, but there are many more options available.
 *You can find more details about the markdown syntax in this website https://daringfireball.net/projects/markdown/syntax*
