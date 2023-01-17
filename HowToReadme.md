@@ -9,9 +9,9 @@ Markdown is a markup language that is used to format plain text documents. It al
 
 **Here are a few examples of Markdown syntax:**
 
-Headings are created by adding one or more "#" symbols at the beginning of a line, followed by a space. The number of "#" symbols indicates the level of the heading.
-    Example: # Heading 1
-    ## Heading 2
+>Headings are created by adding one or more "#" symbols at the beginning of a >line, followed by a space. The number of "#" symbols indicates the level of >the heading.
+>    Example: # Heading 1
+>    ## Heading 2
     ### Heading 3
 Lists can be created using "-" or "*" at the beginning of a line, followed by a space.
     Example:
