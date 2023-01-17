@@ -6,7 +6,7 @@ Here is an example of how you might use Fabric.js to draw a path on a canvas:
 <canvas id="canvas"></canvas>
 
 <script>
-  # initialize canvas
+  // initialize canvas
   var canvas = new fabric.Canvas('canvas');
 
   // create path
@@ -28,7 +28,7 @@ Musarrat Chowdhury
 make that path from an array of coords
 
 Here is an example of how you might use Fabric.js to draw a path on a canvas using an array of coordinates:
-
+```
 <canvas id="canvas"></canvas>
 
 <script>
@@ -56,7 +56,7 @@ Here is an example of how you might use Fabric.js to draw a path on a canvas usi
   // add path to canvas
   canvas.add(path);
 </script>
-
+```
 This code creates a canvas element on the page, and then uses Fabric.js to create a path from an array of coordinates. The array of coordinates is used to construct the path string by iterating through each element of the array and adding the x and y values to the path string in the format 'L x y'. The path string is then passed as the argument to the fabric.Path constructor. The path is then positioned on the canvas using the 'left' and 'top' properties, and filled with the color 'red'.
 
 You can also adjust the path string generation and path properties to match your requirement.
@@ -64,7 +64,7 @@ Musarrat Chowdhury
 now draw a text that follows the path created
 
 Here is an example of how you might use Fabric.js to draw a text that follows a path on a canvas:
-
+```
 <canvas id="canvas"></canvas>
 
 <script>
@@ -106,7 +106,7 @@ Here is an example of how you might use Fabric.js to draw a text that follows a 
   // add text to canvas
   canvas.add(text);
 </script>
-
+```
 This code creates a canvas element on the page, and then uses Fabric.js to create a path from an array of coordinates. The array of coordinates is used to construct the path string by iterating through each element of the array and adding the x and y values to the path string in the format 'L x y'. The path string is then passed as the argument to the fabric.Path constructor. The path is then positioned on the canvas using the 'left' and 'top' properties and filled with transparent color. After that, it creates a text object and sets the path of the text as the pathString. Finally, it adds the text to the canvas.
 
 The text will now follow the path created, you can adjust the properties of the text and path to match your requirement.
@@ -114,7 +114,7 @@ Musarrat Chowdhury
 the path and text should overlap
 
 Here is an example of how you might use Fabric.js to draw a text that overlaps with a path on a canvas:
-
+```
 <canvas id="canvas"></canvas>
 
 <script>
@@ -161,7 +161,7 @@ Here is an example of how you might use Fabric.js to draw a text that overlaps w
   // add text to canvas
   canvas.add(text);
 </script>
-
+```
 This code creates a canvas element on the page, and then uses Fabric.js to create a path from an array of coordinates. The array of coordinates is used to construct the path string by iterating through each element of the array and adding the x and y values to the path string in the format 'L x y'. The path string is then passed as the argument to the fabric.Path constructor. The path is then positioned on the canvas using the 'left' and 'top' properties and filled with transparent color. After that, it creates a text object and sets the path of the text as the pathString, also sets the textAlign, originX, and originY properties to center. Finally, it adds the text to the canvas.
 
 The text will now overlap the path created, you can adjust the properties of the text and path to match your requirement.
