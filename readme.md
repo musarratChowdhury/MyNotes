@@ -2,7 +2,7 @@ Musarrat Chowdhury
 write code to draw a path with fabric js
 
 Here is an example of how you might use Fabric.js to draw a path on a canvas:
-
+```
 <canvas id="canvas"></canvas>
 
 <script>
@@ -20,7 +20,7 @@ Here is an example of how you might use Fabric.js to draw a path on a canvas:
   // add path to canvas
   canvas.add(path);
 </script>
-
+```
 This code creates a canvas element on the page, and then uses Fabric.js to create a path and add it to the canvas. The path is defined by the SVG path data string 'M 0 0 L 200 100 L 170 200 z', which defines a simple triangle shape. The path is then positioned on the canvas using the 'left' and 'top' properties, and filled with the color 'red'.
 
 You can also use your own path data and update the properties to match your requirement.
