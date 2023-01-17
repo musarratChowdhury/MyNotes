@@ -6,7 +6,7 @@ Here is an example of how you might use Fabric.js to draw a path on a canvas:
 <canvas id="canvas"></canvas>
 
 <script>
-  // initialize canvas
+  # initialize canvas
   var canvas = new fabric.Canvas('canvas');
 
   // create path
