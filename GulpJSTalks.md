@@ -192,6 +192,12 @@ gulp.task('serve', function() {
 gulp.task('default', gulp.series('serve'));
 ```
 
+INSTALL BROWSER-SYNC AS A DEV DEPENDENCY
+
+```
+  npm i brower-sync -dev
+```
+
 In this example, we define a serve task that uses browser-sync to create a development server that serves the files in the ./src directory. We also watch for changes to the .js files in the ./src directory and reload the browser when changes are detected.
 
 We then define a default task that runs the serve task when you run gulp with no arguments.
